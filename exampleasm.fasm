@@ -1,4 +1,8 @@
 movl    1,65        // super simplistic assembler design, everything after the instruction will be ignored
-movl    2,220       
+movl    2,220
+movl    3,254       
+movl    15,1
+movl    4,4
 st      1,2         // mem[220] = 65 
 ld      0,2         // reg0 = mem[220], prints 'A'
+sub     3,3,15      // reg3 = reg3 - reg15
