@@ -14,7 +14,7 @@ def printHex(binary):
     out.write(output[2:] + "\n")
 
 while True:
-    line = inp.readline()
+    line = inp.readline(5_000_000)
     if not line:
         break
 
